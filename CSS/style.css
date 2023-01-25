@@ -29,8 +29,8 @@
 }
 .container_blue {
   display: grid;
-  grid-template-columns: 500px 300px;
-  gap: 10px;
+  grid-template-columns: 50% 25%;
+  /* gap: 10px; */
   justify-content: space-around;
   text-align: center;
   align-content: center;
@@ -40,7 +40,7 @@
   padding: 20px 0;
 }
 .left_block a button {
-  width: 300px;
+  width: 250px;
   padding: 10px;
   background-color: #182ef1;
   border: none;
@@ -62,7 +62,6 @@
   display: grid;
   height: 350px;
   text-align: center;
-  grid-template-rows: 3;
   align-content: center;
   margin: auto 0;
   color: #000000;
@@ -181,14 +180,12 @@ input[type="submit"]:hover {
     transition: all 1s ease;
   }
   .grid-container .box3 {
-    grid-template-columns: auto;
+    grid-template-columns: 85%;
     transition: 1s ease;
     width: 85%;
     margin: 0 auto;
   }
-  .box2, .box1, .box4, .box5 {
-    width: 85%;
-  }
+
 }
 
 @media screen and (min-width: 551px) {
@@ -199,7 +196,7 @@ input[type="submit"]:hover {
 @media screen and (max-width: 900px) {
   .container_blue {
     height: 900px;
-    grid-template-columns: 400px;
+    grid-template-columns: 85%;
     transition: 1s ease;
   }
 }
