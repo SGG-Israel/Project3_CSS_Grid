@@ -185,7 +185,6 @@ input[type="submit"]:hover {
     width: 85%;
     margin: 0 auto;
   }
-
 }
 
 @media screen and (min-width: 551px) {
@@ -195,7 +194,7 @@ input[type="submit"]:hover {
 }
 @media screen and (max-width: 900px) {
   .container_blue {
-    height: 900px;
+    height: 950px;
     grid-template-columns: 85%;
     transition: 1s ease;
   }
