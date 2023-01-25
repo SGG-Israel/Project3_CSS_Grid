@@ -192,6 +192,11 @@ input[type="submit"]:hover {
     display: none;
   }
 }
+@media screen and (max-width: 1200px) {
+  .container_blue {
+    grid-template-columns: 40% 35%;
+  }
+}
 @media screen and (max-width: 900px) {
   .container_blue {
     height: 950px;
