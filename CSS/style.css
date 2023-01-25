@@ -186,6 +186,9 @@ input[type="submit"]:hover {
     width: 85%;
     margin: 0 auto;
   }
+  .box2, .box1, .box4, .box5 {
+    width: 85%;
+  }
 }
 
 @media screen and (min-width: 551px) {
